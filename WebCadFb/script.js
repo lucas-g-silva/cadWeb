@@ -11,7 +11,6 @@ $(document).ready(function () {
     $phoneMask.mask('(00) 00000-0000', { reverse: false });
 });
 
-
 async function add() {
     if (isSet()) {
         let num = 0
